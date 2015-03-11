@@ -34,7 +34,7 @@ Differential-splicing has a number of required and optional arguments, detailed 
 * `t` - threshold FPKM value - introns output must be in spliceforms with an FPKM value above this value in samples listed in the `above_threshold` argument; default value is 0
 * `t_absent` - threshold absent FPKM value; introns output must not be in transcripts with an FPKM value above this in samples listed in the `absent` argument, and there must be an alternative transcript for the gene in question with an FPKM value above this in at least one of the samples listed in the `absent` argument (otherwise the program would identify introns in genes with sample-specific expression as well as genes with sample-specific splicing); default value is 0 
 * `other` - space-separated list of samples for which expression information is desired but for which expression values do not influence the introns output; the sample names must be written exactly as in the isoform_exp.diff file
-* `min-specific-intron-length` - introns output must have a length in nucleotides above this value; default value is 10
+* `min_specific_intron` - introns output must have a length in nucleotides above this value; default value is 10
 
 ### *Example*
 To identify putative male-specific introns as per the example in the 'About' section, the command might be:
