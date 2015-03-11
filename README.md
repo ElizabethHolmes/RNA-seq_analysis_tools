@@ -39,7 +39,7 @@ Differential_splicing has a number of required and optional arguments, detailed 
 ### *Example*
 To identify putative male-specific introns as per the example in the 'About' section, the command might be:
 
-    ./differential_splicing.py -t 10 -t_absent 0.5 -above_threshold male1 male2 -absent female1 female2 -genome genome.fa -expression ..isoform_exp.diff -gtf merged.gtf -junctions TopHat_files/Male1/junctions.bed TopHat_files/Male2/junctions.bed TopHatfiles/Female1/junctions.bed TopHatfiles/Female2/junctions.bed 
+    ./differential_splicing.py -t 10 -t_absent 0.5 -above_threshold male1 male2 -absent female1 female2 -genome genome.fa -expression isoform_exp.diff -gtf merged.gtf -junctions TopHat_files/Male1/junctions.bed TopHat_files/Male2/junctions.bed TopHatfiles/Female1/junctions.bed TopHatfiles/Female2/junctions.bed 
 
 ## Output
 Differential_splicing produces a number of output files:
