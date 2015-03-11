@@ -43,7 +43,7 @@ To identify putative male-specific introns as per the example in the 'About' sec
 
 ## Output
 Differential_splicing produces a number of output files:
-* `specific_intron_information` - This file lists the spliceforms with introns identified as fitting the user-specified criteria (e.g. male-specific) and provides further details in tabular format, as described below. The final three columns provide information useful for primer design for experimental validation. *Note: Introns that are present in multiple different spliceforms will be listed multiple times - one line corresponds to one spliceform.
+* `specific_intron_information` - This file lists the spliceforms with introns identified as fitting the user-specified criteria (e.g. male-specific) and provides further details in tabular format, as described below. The final three columns provide information useful for primer design for experimental validation. \*Note: Introns that are present in multiple different spliceforms will be listed multiple times - one line corresponds to one spliceform.
 ** The first column gives the locus of the gene in the genome.
 ** The second, third and fourth columns give information on the gene and transcript ID.
 ** The next columns give the expression levels of the spliceform in each of the user-specified samples.
