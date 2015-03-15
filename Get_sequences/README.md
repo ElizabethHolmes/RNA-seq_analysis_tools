@@ -22,7 +22,8 @@ Both Get_transcript_sequences scripts have two required arguments, and `get_tran
 * `genome` - path to genome FASTA file
 * `gtf` - path to merged.gtf file output by Cuffmerge
 
-* `genes` - path to text file containing list of genes (in a single column) for which transcript sequences are desired; required for `get_transcript_sequences_aligned.py` 
+Additional argument for `get_transcript_sequences_aligned.py`:
+* `genes` - path to text file containing list of genes (in a single column) for which transcript sequences are desired 
 
 ### *Example*
 To obtain sequences for all transcripts predicted in the gtf file, the command might be:
