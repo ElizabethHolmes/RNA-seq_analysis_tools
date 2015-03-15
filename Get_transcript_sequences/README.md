@@ -8,7 +8,7 @@ Get_transcript_sequences is a pair of Python scripts for obtaining transcript se
 Get_transcript_sequences is not yet associated with a paper; to cite it please use:
 
     Sutton, ER. (2015). Get_transcript_sequences [Software]. 
-    Available at https://github.com/ElizabethSutton/RNA-seq_differential_analysis_tools/Get_transcript_sequences.
+    Available at https://github.com/ElizabethSutton/RNA-seq_analysis_tools/Get_transcript_sequences.
 
 ## Requirements
 Get_transcript_sequences requires Python. It has been tested only with Python 2.7.3. It also requires [bedtools](https://github.com/arq5x/bedtools2). It has been tested only with bedtools version 2.16.2.
