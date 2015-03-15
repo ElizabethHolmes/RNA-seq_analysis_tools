@@ -8,4 +8,4 @@ RNA-seq_differential_analysis tools is a package of Python scripts designed to a
 RNA-seq_differential_analysis_tools is not yet associated with a paper; to cite it please see the citation sections for individual scripts.
 
 ## Requirements
-All the scripts in RNA-seq_differential_analysis tools require Python. They have been tested only with Python 2.7.3.
+All the scripts in RNA-seq_differential_analysis tools require Python. They have been tested only with Python 2.7.3. Some of the scripts have further requirements; see the individual README files for more information.
