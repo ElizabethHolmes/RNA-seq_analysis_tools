@@ -64,3 +64,4 @@ for i in range(0, len(sequence)):
     if i%60 == 0 and i != 0:
         output.write('\n')
     output.write(sequence[i])
+output.close()
