@@ -13,7 +13,7 @@ Differential_splicing is not yet associated with a paper; to cite it please use:
     Available at https://github.com/ElizabethSutton/RNA-seq_differential_analysis_tools/Differential_splicing.
 
 ## Requirements
-Differential_splicing requires Python. It has been tested only with Python 2.7.3.
+Differential_splicing requires Python. It has been tested only with Python 2.7.3. It also requires [bedtools](https://github.com/arq5x/bedtools2). It has been tested only with bedtools version 2.16.2.
 
 Differential_splicing takes a few hours to run on a standard-sized dataset and so is probably best run on a high performance server with multiple cores.
 
