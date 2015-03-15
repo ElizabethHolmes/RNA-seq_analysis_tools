@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # dealing with command line input
 import argparse
 parser = argparse.ArgumentParser()
