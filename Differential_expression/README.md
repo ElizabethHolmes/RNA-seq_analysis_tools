@@ -12,7 +12,7 @@ The information output by Differential_expression is already available in the ou
 Differential_expression is not yet associated with a paper; to cite it please use:
 
     Sutton, ER. (2015). Differential_expression [Software]. 
-    Available at https://github.com/ElizabethSutton/RNA-seq_differential_analysis_tools/Differential_expression.
+    Available at https://github.com/ElizabethSutton/RNA-seq_analysis_tools/Differential_expression.
 
 ## Requirements
 Differential_expression requires Python. It has been tested only with Python 2.7.3.
