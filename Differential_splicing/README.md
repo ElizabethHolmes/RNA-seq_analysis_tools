@@ -10,7 +10,7 @@ For example, Differential_splicing could be used to identify putative male-speci
 Differential_splicing is not yet associated with a paper; to cite it please use:
 
     Sutton, ER. (2015). Differential_splicing [Software]. 
-    Available at https://github.com/ElizabethSutton/RNA-seq_differential_analysis_tools/Differential_splicing.
+    Available at https://github.com/ElizabethSutton/RNA-seq_analysis_tools/Differential_splicing.
 
 ## Requirements
 Differential_splicing requires Python. It has been tested only with Python 2.7.3. It also requires [bedtools](https://github.com/arq5x/bedtools2). It has been tested only with bedtools version 2.16.2.
