@@ -4,8 +4,6 @@ Differential_splicing is a Python script for analysing differential splicing bet
 
 For example, Differential_splicing could be used to identify putative male-specific introns, which are present in spliceforms expressed in males, but absent from spliceforms of the same genes expressed in females. It may be advisable to use a threshold higher than 0 FPKM to detect genuine presence of spliceforms, to reduce false positives, and to use a threshold higher than 0 FPKM to confirm genuine absence of spliceforms, to reduce false negatives. False positives or false negatives could be caused by e.g. errors in transcript assembly or sample cross-contamination. So in this case the user might specify a threshold of 10 FPKM for male samples (introns must be in transcripts with an expression level above 10 FPKM in these samples), and 0.5 FPKM for female samples (introns must not be in transcripts with an expression level above 0.5 FPKM in these samples).
 
-** PLEASE NOTE: Differential_splicing is one of my first scripts written as a beginner programmer and so I apologise if the code is inelegant, unconventional or otherwise sub-optimal; it works for the intended purpose and I provide it in case it might be useful to others, but with no guarantees. ** 
-
 ## Citation
 Differential_splicing is not yet associated with a paper; to cite it please use:
 
