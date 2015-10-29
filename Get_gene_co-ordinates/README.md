@@ -2,8 +2,6 @@
 ## About
 Get_gene_co-ordinates is a Python script designed for obtaining gene co-ordinates from the output of the Tuxedo suite of tools for RNA-seq analysis [(Trapnell *et al.*, 2012)](http://www.nature.com/nprot/journal/v7/n3/full/nprot.2012.016.html) for genes of interest, though it could also be used on gtf files from other sources. This might be useful for e.g. comparing the co-ordinates of predicted genes to those of annotated genes, to identify genes where the annotation may be incomplete.
 
-** PLEASE NOTE: Get_gene_co-ordinates is one of my first scripts written as a beginner programmer and so I apologise if the code is inelegant, unconventional or otherwise sub-optimal; it works for the intended purpose and I provide it in case it might be useful to others, but with no guarantees. **
-
 ## Citation
 Get_gene_co-ordinates is not yet associated with a paper; to cite it please use:
 
