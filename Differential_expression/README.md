@@ -6,8 +6,6 @@ For example, Differential_expression could be used to identify putative male-spe
 
 The information output by Differential_expression is already available in the output of Cuffdiff, but not in a convenient format; Differential_expression extracts only the genes of interest and lists information on these genes in a convenient tabular format.
 
-** PLEASE NOTE: The Differential_expression scripts are some of my first scripts written as a beginner programmer and so I apologise if the code is inelegant, unconventional or otherwise sub-optimal; they work for the intended purpose and I provide them in case they might be useful to others, but with no guarantees. ** 
-
 ## Citation
 Differential_expression is not yet associated with a paper; to cite it please use:
 
