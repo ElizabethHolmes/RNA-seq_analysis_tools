@@ -2,8 +2,6 @@
 ## About
 Get_transcript_sequences is a pair of Python scripts for obtaining transcript sequences from the output of the Tuxedo suite of tools for RNA-seq analysis [(Trapnell *et al.*, 2012)](http://www.nature.com/nprot/journal/v7/n3/full/nprot.2012.016.html), though it could also ge used on gtf files from other sources. The `get_all_transcript_sequences.py` script obtains all predicted transcript sequences, which might be useful for e.g. creating a BLAST database to BLAST other sequences against. The `get_transcript_sequences_aligned.py` script obtains predicted transcript sequences in an aligned format for genes of interest, which might be useful for e.g. primer design to test genes of interest.
 
-** PLEASE NOTE: The Get_trancript_sequences scripts are some of my first scripts written as a beginner programmer and so I apologise if the code is inelegant, unconventional or otherwise sub-optimal; they work for the intended purpose and I provide them in case they might be useful to others, but with no guarantees. ** 
-
 ## Citation
 Get_transcript_sequences is not yet associated with a paper; to cite it please use:
 
