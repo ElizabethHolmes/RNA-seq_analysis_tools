@@ -3,10 +3,7 @@
 Get_transcript_sequences is a pair of Python scripts for obtaining transcript sequences from the output of the Tuxedo suite of tools for RNA-seq analysis [(Trapnell *et al.*, 2012)](http://www.nature.com/nprot/journal/v7/n3/full/nprot.2012.016.html), though it could also ge used on gtf files from other sources. The `get_all_transcript_sequences.py` script obtains all predicted transcript sequences, which might be useful for e.g. creating a BLAST database to BLAST other sequences against. The `get_transcript_sequences_aligned.py` script obtains predicted transcript sequences in an aligned format for genes of interest, which might be useful for e.g. primer design to test genes of interest.
 
 ## Citation
-Get_transcript_sequences is not yet associated with a paper; to cite it please use:
-
-    Sutton, ER. (2015). Get_transcript_sequences [Software]. 
-    Available at https://github.com/ElizabethSutton/RNA-seq_analysis_tools/Get_transcript_sequences.
+To cite RNA-seq_analysis tools, please cite the following paper: [Sutton ER, Yu Y, Shimeld SM, White-Cooper H, Alphey L: Identification of genes for engineering the male germline of *Aedes aegypti* and *Ceratitis capitata*. BMC Genomics 2016 17:948.](https://www.ncbi.nlm.nih.gov/pubmed/27871244)
 
 ## Requirements
 Get_transcript_sequences requires Python. It has been tested only with Python 2.7.3. It also requires [bedtools](https://github.com/arq5x/bedtools2). It has been tested only with bedtools version 2.16.2.
