@@ -7,10 +7,7 @@ For example, Differential_expression could be used to identify putative male-spe
 The information output by Differential_expression is already available in the output of Cuffdiff, but not in a convenient format; Differential_expression extracts only the genes of interest and lists information on these genes in a convenient tabular format.
 
 ## Citation
-Differential_expression is not yet associated with a paper; to cite it please use:
-
-    Sutton, ER. (2015). Differential_expression [Software]. 
-    Available at https://github.com/ElizabethSutton/RNA-seq_analysis_tools/Differential_expression.
+To cite RNA-seq_analysis tools, please cite the following paper: [Sutton ER, Yu Y, Shimeld SM, White-Cooper H, Alphey L: Identification of genes for engineering the male germline of *Aedes aegypti* and *Ceratitis capitata*. BMC Genomics 2016 17:948.](https://www.ncbi.nlm.nih.gov/pubmed/27871244)
 
 ## Requirements
 Differential_expression requires Python. It has been tested only with Python 2.7.3.
