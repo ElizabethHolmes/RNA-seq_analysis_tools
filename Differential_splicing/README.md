@@ -5,10 +5,7 @@ Differential_splicing is a Python script for analysing differential splicing bet
 For example, Differential_splicing could be used to identify putative male-specific introns, which are present in spliceforms expressed in males, but absent from spliceforms of the same genes expressed in females. It may be advisable to use a threshold higher than 0 FPKM to detect genuine presence of spliceforms, to reduce false positives, and to use a threshold higher than 0 FPKM to confirm genuine absence of spliceforms, to reduce false negatives. False positives or false negatives could be caused by e.g. errors in transcript assembly or sample cross-contamination. So in this case the user might specify a threshold of 10 FPKM for male samples (introns must be in transcripts with an expression level above 10 FPKM in these samples), and 0.5 FPKM for female samples (introns must not be in transcripts with an expression level above 0.5 FPKM in these samples).
 
 ## Citation
-Differential_splicing is not yet associated with a paper; to cite it please use:
-
-    Sutton, ER. (2015). Differential_splicing [Software]. 
-    Available at https://github.com/ElizabethSutton/RNA-seq_analysis_tools/Differential_splicing.
+To cite RNA-seq_analysis tools, please cite the following paper: [Sutton ER, Yu Y, Shimeld SM, White-Cooper H, Alphey L: Identification of genes for engineering the male germline of *Aedes aegypti* and *Ceratitis capitata*. BMC Genomics 2016 17:948.](https://www.ncbi.nlm.nih.gov/pubmed/27871244)
 
 ## Requirements
 Differential_splicing requires Python. It has been tested only with Python 2.7.3. It also requires [bedtools](https://github.com/arq5x/bedtools2). It has been tested only with bedtools version 2.16.2.
